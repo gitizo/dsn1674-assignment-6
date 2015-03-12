@@ -1,0 +1,23 @@
+html{
+  box-sizing: border-box;
+  font-family: 'Contrail One', cursive;
+}
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+
+.robot-body{
+  width: 320px;
+}
+
+.robot-brain{
+  width: 46px;
+}
+
+.robot-head-left{
+  width: 125px;
+}
+
+.robot-head-right{
+  width: 125px;
+}

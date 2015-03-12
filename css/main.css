@@ -21,3 +21,9 @@ html{
 .robot-head-right{
   width: 125px;
 }
+
+.images{
+  position: relative;
+  width: 320px;
+  
+}

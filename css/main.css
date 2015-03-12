@@ -8,26 +8,45 @@ html{
 
 .robot-body{
   width: 320px;
-  position: absolute;
+  position: relative;
+  top: 57px;
 }
 
 .robot-brain{
   width: 46px;
-  position: relative;
+  position: absolute;
+  top: 66px;
+  right:137px;
 }
 
 .robot-head-left{
   width: 125px;
-  position: relative;
+  position: absolute;
+  top: 20px;
+  left: 35px;
 }
 
 .robot-head-right{
   width: 125px;
-  position: relative;
+  position: absolute;
+  top: 20px;
+  right: 35px;
 }
 
 .images{
   position: relative;
   width: 320px;
   margin: 0 auto;
+}
+
+.images:hover .robot-brain{
+  top: 36px;
+}
+
+.images:hover .robot-head-left{
+  left: -26px;
+}
+
+.images:hover .robot-head-right{
+  right: -26px;
 }
